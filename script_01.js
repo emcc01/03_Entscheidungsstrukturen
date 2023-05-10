@@ -27,9 +27,40 @@ console.log("------------------");
 // entweder JA oder nix ... alternativlos
 // Türsteher-Politik (Doors 10 p.m.)
 
-//if(isJohnOlder)
-if (ageJohn > ageMark)
-{
-    console.log("John ist älter.");
-}
+// 
+/************ IF - ELSE  ************/
+// mit Alternative  
+// entweder ja oder nein
 
+// // if(true)   //erster Befehl wird ausgeführt
+// // if(false)  //zweiter Befehl wird ausgeführt
+// // if(isJohnOlder)
+// if (ageJohn > ageMark) 
+// {
+//   console.log("John ist älter.");  
+// } 
+// else 
+// {
+//    console.log("John ist jünger."); 
+// }
+
+/************  Ternäre (ternary) Schreibweise ************/
+// console.log( (isJohnOlder) ? "John is older" : "Mark is older");
+
+
+/************ IF - ELSE IF  ************/
+// mit alternativen Fällen (älter, jünger, gleich alt)
+
+
+if (isJohnOlder) // 1.Test
+{
+  console.log("John ist älter.");  
+} 
+else if (isJohnEqual)  // 2.Test, erste Alternative
+{
+   console.log("John ist gleich alt."); 
+}
+else // 3. Test, wenn alle fehlschlagen
+{
+   console.log("John ist jünger."); 
+}
