@@ -70,37 +70,59 @@ let isJohnOlder, isJohnEqual;
 /****** Fallunterscheidung / SWITCH|CASE 1 ******/
 
 
-const firstName = "Jane";
-let job;
+// const firstName = "Jane";
+// let job;
 
-job = "driver";     // .. fährt TAXI! / UBER
-job = "diver";
-job = "artist";
-job = "pilot";
-job = "teacher";
-job = "instructor";
+// job = "driver";     // .. fährt TAXI! / UBER
+// job = "diver";
+// job = "artist";
+// job = "pilot";
+// job = "teacher";
+// job = "instructor";
 
-switch (job) 
+// switch (job) 
+// {
+//     case "driver":  // Test auf Gleichheit
+//         console.log(firstName + " fährt Taxi!");
+//         break;
+//     case "diver":  
+//         console.log(firstName + " taucht im Rhein");
+//         break;
+//     case "artist":  
+//         console.log(firstName + " ist Künstlerin");
+//         break;   
+//     case "teacher":  // Oder Verknüpfung, beide gleicher Befehl
+//     case "instructor":  
+//         console.log(firstName + " unterrichtet");
+//         break;   
+//     default:    //bei case am besten immer etwas in default schreiben
+//         console.log(firstName + " macht etwas anderes");
+//         break;
+// }
+
+// ohne breaks würde Befehl einfach durchlaufen
+
+
+
+/********  Fallunterscheidung / SWITCH|CASE 2 *******/
+
+const cond = true;
+const a = 2;
+
+switch (cond) 
 {
-    case "driver":  // Test auf Gleichheit
-        console.log(firstName + " fährt Taxi!");
+    case (a==1):
+        console.log("a ist gleich 1");
         break;
-    case "diver":  
-        console.log(firstName + " taucht im Rhein");
+    case (a==2):
+        console.log("a ist gleich 2");
         break;
-    case "artist":  
-        console.log(firstName + " ist Künstlerin");
-        break;   
-    case "teacher":  // Oder Verknüpfung, beide gleicher Befehl
-    case "instructor":  
-        console.log(firstName + " unterrichtet");
-        break;   
-    default:    //bei case am besten immer etwas in default schreiben
-        console.log(firstName + " macht etwas anderes");
+
+    default:
+        console.log("a hat einen anderen Wert");
         break;
 }
 
-// ohne breaks würde Befehl einfach durchlaufen
 
 
 
