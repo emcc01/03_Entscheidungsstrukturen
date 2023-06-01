@@ -9,7 +9,7 @@ const ageMark = 30;
 // Deklaration
 let isJohnOlder, isJohnEqual;
 
-// // Test | Logische Aussage
+// // Test | Logische Aussage  // Wahrheitswerte sind Schlüssel zur Entscheidungsstruktur, 
 // isJohnOlder = (ageJohn > ageMark);
 // isJohnEqual = (ageJohn == ageMark);
 
@@ -49,7 +49,7 @@ let isJohnOlder, isJohnEqual;
 
 
 /************ IF - ELSE IF  ************/
-// mit alternativen Fällen (älter, jünger, gleich alt)
+// mit alternativen Fällen (älter, jünger, gleich alt) // mit Fallunterscsheidungen umgehen können, mit if else if od switch
 
 
 // if (isJohnOlder) // 1.Test
